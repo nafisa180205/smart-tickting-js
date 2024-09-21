@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS style  -->
+     <link rel="stylesheet" href="./style/style.css">
+
+     <!-- font awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- daisy ui cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#1DD100',
+                secondary: '#030712',
+                gray:'#03071280',
+                background: '#C5C5C5',
+                navy:'#030712'
+
+              }
+            },
+
+            fontFamily:{
+                Raleway: "Raleway", 
+                Inter: "Inter", 
+            }
+          }
+        }
+      </script>
+</head>
+<body >
+
+    <header class="w-full">
+
+    </header>
+
+    <main class="w-full">
+
+    </main>
+    
+
+    <footer class=" w-full bg-navy md:pt-20 
+    md:pb-20 pt-10 pb-10 ">
+        <div class="flex justify-between items-center  w-11/12 mx-auto md:flex-row flex-col">
+            <aside class="text-white space-y-5">
+                <img src="https://img.icons8.com/?size=100&id=64389&format=png&color=000000" alt="">
+                <h3 class="text-4xl font-extrabold">P-Ticket</h3>
+
+                <p>
+                    P-Ticket is a digital platform to make your 
+                    <br> daily commuting better.
+                </p>
+              </aside>
+      
+              <div class="text-white space-y-4 text-left ">
+                <h6 class="text-2xl font-semibold">Download our app</h6>
+                <div class="flex justify-center items-center gap-3 p-3 bg-black border-2 border-solid border-white rounded-xl">
+                    <img class="w-8 h-9" src="./images/playstore.png" alt="">
+                    <div>
+                        <h3 class="uppercase text-lg">Get it on </h3>
+                        <h2 class="text-2xl font-semibold">Google Play</h2>
+                    </div>
+                  
+                </div>
+              </div>
+        </div>
+
+        <div class="border-2 border-dashed  w-11/12 mx-auto my-7"></div>
+
+        <div class="flex justify-between items-center  w-11/12 mx-auto md:flex-row flex-col-reverse">
+            <p class="">@all rights reserved, P-Ticket services limited.2024</p>
+
+            <div class=" font-medium text-white flex justify-between items-center gap-3">
+                <a href="#">Terms & condition</a>
+                <a href="#">Return & refund policy</a>
+                <a href="#">Privacy policy</a>
+            </div>
+
+        </div>
+      </footer>
+
+    <script src="./js/app.js"></script>
+    
+</body>
+</html>
